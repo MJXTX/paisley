@@ -3,25 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecionando...</title>
-    <!-- Redirecionamento automático com meta refresh -->
     <meta http-equiv="refresh" content="0; url=/en_us" />
-    
-    <!-- Fallback com JavaScript caso o meta refresh não funcione -->
+    <style>
+        body {
+            background-color: #000000; /* Fundo totalmente preto */
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <!-- Fallback JavaScript (sem mensagem visível) -->
     <script>
-        setTimeout(function() {
-            window.location.href = "/en_us";
-        }, 100);
+        window.location.href = "/en_us";
     </script>
-    
-    <!-- Estilo simples para a mensagem de redirecionamento -->
-
 </head>
-<body>
-    <div class="redirect-message">
-        <h2>Redirecionando para a versão em Inglês (US)</h2>
-        <div class="spinner"></div>
-        <p>Se o redirecionamento não funcionar automaticamente, <a href="/en_us">clique aqui</a>.</p>
-    </div>
-</body>
 </html>
