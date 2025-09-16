@@ -12,11 +12,11 @@ const imagensSobrepostas = [
 let indiceAtual = 0;
 
 const imagensSobrepostas5 = [
+    `${path}/C.png`,
     `${path}/A.png`,
     `${path}/S.png`,
     `${path}/V.png`,
-    `${path}/D.png`,
-    `${path}/C.png`
+    `${path}/D.png`
 ];
 let indiceAtual5 = 0;
 
